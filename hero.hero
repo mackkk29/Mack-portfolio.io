@@ -1,0 +1,20 @@
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <div class="hero-text">
+      <p class="tagline">IT Student • Phone Repair • Esports</p>
+      <h1>Hi, I'm <span>Your Name</span></h1>
+      <p class="hero-subtitle">
+        A passionate ICT/IT student who loves tinkering with gadgets, fixing phones,
+        and helping with esports events and production.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="me.jpg" alt="Portrait of Your Name">
+    </div>
+  </div>
+</section>
