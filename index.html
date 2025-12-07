@@ -3,55 +3,117 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+  <title>Your Name | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Navigation -->
-  <header>
-    <h1>My Portfolio</h1>
+  <!-- Header / Navbar -->
+  <header class="navbar">
+    <div class="logo">YourName<span>.</span></div>
     <nav>
-      <a href="#about">About Me</a> |
-      <a href="#skills">Skills</a> |
-      <a href="#projects">Projects</a> |
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </nav>
   </header>
 
-  <!-- About Me -->
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-text">
+      <p class="tagline">IT Student • Phone Repair • Esports</p>
+      <h1>Hi, I'm <span>Your Name</span></h1>
+      <p class="hero-subtitle">
+        A passionate ICT/IT student who loves tinkering with gadgets, fixing phones,
+        and helping with esports events and production.
+      </p>
+      <div class="hero-buttons">
+        <a href="#projects" class="btn primary">View My Work</a>
+        <a href="#contact" class="btn outline">Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
   <section id="about">
     <h2>About Me</h2>
-    <p>Hi, I'm [Your Name], a student interested in Information Technology, phone repair, and esports production.</p>
+    <p>
+      I'm a senior high IT student from the Philippines who started by tinkering with
+      old phones and experimenting with basic coding. Now I help with esports events,
+      simple designs, and device repairs while building my tech skills for future IT work.
+    </p>
   </section>
 
-  <!-- Skills -->
+  <!-- Skills Section -->
   <section id="skills">
     <h2>Skills</h2>
-    <ul>
-      <li>Basic HTML & CSS</li>
-      <li>Mobile phone repair</li>
-      <li>Esports event/production assistance</li>
-    </ul>
+    <div class="cards">
+      <div class="card">
+        <h3>Technical</h3>
+        <ul>
+          <li>HTML & basic CSS</li>
+          <li>Mobile phone troubleshooting</li>
+          <li>Basic PC setup and maintenance</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Creative</h3>
+        <ul>
+          <li>Esports event assistance</li>
+          <li>Basic graphics/layout for posters</li>
+          <li>Simple UI ideas for apps/web</li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Soft Skills</h3>
+        <ul>
+          <li>Teamwork in club events</li>
+          <li>Communication with clients/classmates</li>
+          <li>Problem-solving and curiosity</li>
+        </ul>
+      </div>
+    </div>
   </section>
 
-  <!-- Projects -->
+  <!-- Projects Section -->
   <section id="projects">
     <h2>Projects</h2>
-    <h3>Esports Club Work</h3>
-    <p>Helped with MLBB tournaments and simple graphics for events.</p>
-
-    <h3>Phone Repair</h3>
-    <p>Repaired phones (screen, buttons, basic troubleshooting) for friends and classmates.</p>
+    <div class="cards">
+      <div class="card">
+        <h3>Esports Club Support</h3>
+        <p>
+          Helped organize and support MLBB tournaments, including basic layouts for
+          announcements and assisting with production during events.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Phone Repair</h3>
+        <p>
+          Repaired phones for classmates and friends (screen issues, buttons, basic
+          diagnostics), saving devices that would have been thrown away.
+        </p>
+      </div>
+      <div class="card">
+        <h3>Personal IT Experiments</h3>
+        <p>
+          Explored simple coding projects and tweaks, learning by testing tools and
+          experimenting with how devices and apps work.
+        </p>
+      </div>
+    </div>
   </section>
 
-  <!-- Contact -->
+  <!-- Contact Section -->
   <section id="contact">
     <h2>Contact</h2>
-    <p>Email: your.email@example.com hello world
-  </p>
+    <p>If you want to collaborate or ask about my work, you can reach me here:</p>
+    <p><strong>Email:</strong> your.email@example.com</p>
+    <p><strong>Socials:</strong> @yourhandle (Facebook / IG / Discord)</p>
   </section>
 
   <footer>
-    <p>© 2025 Your Name</p>
+    <p>© 2025 Your Name • IT Student Portfolio</p>
   </footer>
 </body>
 </html>
